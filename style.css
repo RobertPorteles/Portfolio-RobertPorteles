@@ -1,0 +1,41 @@
+.image{
+	background-color: aliceblue;
+	
+}
+.img-descrição{
+	background-color: antiquewhite;
+}
+.eu{
+	height: 380px;
+	width: 380px;
+}
+.font{
+	font-family: 'Brygada 1918', serif;
+
+}
+.galeria{
+	
+	width: auto;
+	height: 400px;
+}
+.background-galary{
+	background-color: rgb(255, 250, 240);
+}
+.btnColore{
+	background-color: rgb(0, 136, 255);
+}
+@media (max-width: 850px) {
+	.galeria{
+	object-fit: cover;
+	width: 200px;
+	height: 400px;
+	}}
+
+	@media (max-width: 1200px) {
+		.galeria{
+		object-fit: cover;
+		width: 240px;
+		height: 400px;
+		}
+
+}
